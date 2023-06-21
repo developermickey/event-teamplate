@@ -564,7 +564,7 @@ main {
 	background-repeat: no-repeat;
 	background-image: url('../img/background.jpg');
 }
-.content {
+.contentss {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -574,7 +574,7 @@ main {
 	overflow: hidden;
 }
 
-.content--reveal {
+.contentss--reveal {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -583,7 +583,7 @@ main {
 	pointer-events: none;
 }
 
-.content__inner {
+.contentss__inner {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -591,12 +591,12 @@ main {
 	display: block;
 	overflow: hidden;
 }
-.js .content__inner {
+.js .contentss__inner {
 	opacity: 0;
 	transition: opacity 0.3s;
 }
 
-.content__title {
+.contentss__title {
 	width: 100%;
 	margin: 0;
 	color: var(--color-title);
@@ -608,7 +608,7 @@ main {
 	text-align: left;
 }
 
-.content__subtitle  {
+.contentss__subtitle  {
 	text-align: left;
 	font-size: 1.25em;
 	line-height: 1.25;
@@ -616,7 +616,7 @@ main {
 	margin: 0 auto;
 	color: var(--color-subtitle);
 }
-.content__close {
+.contentss__close {
 	position: absolute;
 	top: 70px;
 	left: 40px;
@@ -634,10 +634,10 @@ main {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:focus {
+.contentss__close:focus {
 	outline: none;
 }
-.content__close:before {
+.contentss__close:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -652,11 +652,11 @@ main {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:hover:before {
+.contentss__close:hover:before {
 	left: -100%;
 	opacity: 0;
 }
-.content__close:after {
+.contentss__close:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -671,7 +671,7 @@ main {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
 }
-.content__close:hover:after {
+.contentss__close:hover:after {
 	left: 0;
 	opacity: 1;
 }
