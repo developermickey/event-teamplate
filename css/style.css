@@ -564,7 +564,7 @@ main {
 	background-repeat: no-repeat;
 	background-image: url('../img/background.jpg');
 }
-.demoss{
+.content {
 	position: relative;
 	display: flex;
 	justify-content: center;
